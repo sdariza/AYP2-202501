@@ -12,7 +12,6 @@ public class App {
             System.out.println("Ingrese el valor en v[" + i + "]");
             vec[i] = input.nextInt();
         }
-        System.out.println(vec);
         /* Escritura de un vector con n elementos */
         System.out.println("El vector leído es: ");
         for (int i = 0; i <= n - 1; i++) {
