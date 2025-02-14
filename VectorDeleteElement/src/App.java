@@ -36,13 +36,14 @@ public class App {
         if (!encontrado) {
             System.out.println("Elemento no encontrado");
         } else {
+            // Con base en lo explicado en clase, modifica el código
             i = i + 1;
             System.out.printf("Es el elemento número: %d\n", i);
             // caso 1: elemento en última posición
             if (i == n - 1) {
                 vec[i] = 0;
             } else {// caso 2: el elemento NO está de último
-                for (int j = i - 1; j <= n - 2; j++) {// traladar todos los elementos desde la posición donde se
+                for (int j = i - 1; j <= n - 2; j++) {// trasladar todos los elementos desde la posición donde se
                                                       // encontró
                     vec[j] = vec[j + 1];
                 }
